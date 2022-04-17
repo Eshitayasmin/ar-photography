@@ -1,0 +1,45 @@
+.services{
+    display: flex;
+    justify-content: center;
+}
+.services-title{
+    font-family: 'Teko';
+}
+.services a {
+    text-decoration: none;
+    margin-left: 50px;
+    font-size: 17px;
+    background-color: beige;
+    border: 1px solid gainsboro;
+    padding: 5px;
+}
+
+.services{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    margin: 30px 100px;
+}
+.service{
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: beige;
+}
+.services li{
+    font-size: 15px;
+}
+.service-image{
+    height: 250px;
+}
+.book-now-btn{
+    background-color: steelblue;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 17px;
+    border-radius: 10px;
+}
+.book-now-btn:hover{
+    background-color: palevioletred;
+}

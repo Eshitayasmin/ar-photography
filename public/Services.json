@@ -1,0 +1,24 @@
+[
+    {
+        "id": 1,
+        "name": "Photography",
+        "price": "30,000",
+        "description": "Event duration 5hours. Unlimited pictures.(all post processed.)",
+        "img": "https://i.ibb.co/dGDkr4v/1.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Cinematography",
+        "price": "100",
+        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+        "img": "https://i.ibb.co/tY8dmnP/2.jpg"
+    },
+    {
+        "id": 3,
+        "name": "ADD-ONS",
+        "price": "150",
+        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+        "img": "https://i.ibb.co/Yh04YVw/3.jpg"
+    }
+    
+]

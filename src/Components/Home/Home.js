@@ -1,9 +1,13 @@
+import { Carousel } from 'bootstrap';
 import React from 'react';
+import Services from '../Services/Services';
+import Slider from '../Slider/Slider';
 
 const Home = () => {
     return (
         <div>
-           <h3> This is Home</h3>
+          <Slider></Slider>
+           <Services></Services>
         </div>
     );
 };

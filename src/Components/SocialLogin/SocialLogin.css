@@ -1,0 +1,28 @@
+.or-section{
+    display: flex;
+    align-items: center;
+    font-size: 17px;
+
+}
+.or-border{
+    height: 1px;
+    width: 50%;
+    border: 1px solid blueviolet;
+    
+}
+
+.social-btn{
+    background-color: lightpink;
+    font-size: 17px;
+    border: none;
+    border-radius: 10px;
+    color: blue;
+    display: block;
+    margin: 0 auto;
+    padding: 5px 10px;
+    
+}
+.social-btn:hover{
+    background-color: rgba(255, 99, 71, 0.864);
+    color: wheat;
+}

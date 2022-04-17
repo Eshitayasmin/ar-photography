@@ -3,6 +3,8 @@ import { useNavigate } from 'react-router-dom';
 import { useCreateUserWithEmailAndPassword } from 'react-firebase-hooks/auth';
 import auth from '../../firebase.init';
 import './Signup.css';
+import Loading from '../Loading/Loading';
+import SocialLogin from '../SocialLogin/SocialLogin';
 
 const Signup = () => {
     const [email, setEmail] = useState('');
@@ -36,6 +38,10 @@ const Signup = () => {
         navigate('/home');
     }
 
+    if(loading){
+        return <Loading></Loading>
+    }
+
     const handleSignup = (event) => {
         event.preventDefault();
         if(password === confirmPassword){
@@ -52,9 +58,9 @@ const Signup = () => {
         navigate('/login');
     }
     return (
-        <div>
+        <div className='form-container'>
             <h1 className='form-title'>Signup</h1>
-            <form onSubmit={handleSignup} className='form-container'>
+            <form onSubmit={handleSignup}>
                 <input onBlur={handleEmailBlur} type="email" name="email" id="email-field" placeholder='Your Email' />
                 <input onBlur={handlePasswordBlur} type="password" name="password" id="" placeholder='Password' />
 
@@ -63,8 +69,9 @@ const Signup = () => {
 
                 <button className='submit-btn'>Signup</button>
 
-                <p><small>Already have an account? <span onClick={handleLogin} className='text-primary btn btn-link text-decoration-none p-0'> Please Login</span></small></p>
+                <p className='mb-2'><small>Already have an account? <span onClick={handleLogin} className='text-primary btn btn-link text-decoration-none p-0'> Please Login</span></small></p>
             </form>
+            <SocialLogin></SocialLogin>
         </div>
     );
 };
