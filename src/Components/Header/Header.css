@@ -1,0 +1,28 @@
+.navbar{
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
+    padding: 10px 100px;
+    background-color: rgba(0, 0, 0, 0.933);
+}
+
+.ar-title{
+    color: tan;
+    font-family: 'Lucida Sans';
+    
+    
+}
+
+.photography-title{
+    color: slategrey;
+    font-family: 'Teko';
+
+}
+
+.navbar a {
+    text-decoration: none;
+    font-family: 'Lato';
+    color: white;
+    margin-right: 40px;
+    font-size: 18px;
+}
