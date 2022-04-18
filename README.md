@@ -1,7 +1,7 @@
 # AR Photography
 
 ## Live site link
-### https://ar-photography-73631.web.app/
+### https://ar-photography-73631.firebaseapp.com/
 
 <hr>
 
