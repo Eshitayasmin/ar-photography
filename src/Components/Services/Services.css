@@ -1,18 +1,8 @@
-.services{
-    display: flex;
-    justify-content: center;
-}
+
 .services-title{
     font-family: 'Teko';
 }
-.services a {
-    text-decoration: none;
-    margin-left: 50px;
-    font-size: 17px;
-    background-color: beige;
-    border: 1px solid gainsboro;
-    padding: 5px;
-}
+
 
 .services{
     display: grid;
@@ -24,7 +14,7 @@
     border: 1px solid gray;
     padding: 10px;
     border-radius: 10px;
-    background-color: beige;
+    background-color: snow;
 }
 .services li{
     font-size: 15px;

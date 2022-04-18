@@ -19,10 +19,10 @@ const Header = () => {
             </div>
             <div>
                 <Link to="/home">Home</Link>
-                <Link to="/services">Services</Link>
+                <a href="home#services">Services</a>
                 <Link to="/blogs">Blogs</Link>
                 <Link to="/about">About</Link>
-                <Link to="/signup">Signup</Link>
+                
 
                 {
                     user ? 
