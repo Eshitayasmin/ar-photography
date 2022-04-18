@@ -13,3 +13,14 @@
     text-align: center;
     color: blueviolet;
 }
+@media only screen and (max-width: 600px) {
+    .booking-title{
+        font-size: 15px;
+    }
+    .booking-name{
+        font-size: 18px;
+    }
+    .fill-up-title{
+        font-size: 19px;
+    }
+  }

@@ -16,37 +16,37 @@ const Slider = () => {
               <Carousel.Item>
                   <img
                       className="d-block w-100 slider-image"
-                      src={slider2}
+                      src={slider1}
                       alt="First slide"
                   />
                   <Carousel.Caption>
-                      <h3>First slide label</h3>
-                      <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                      <h2>Welcome to AR Photography</h2>
+                      <p>Your each movement, each emotion is nothing but a beautiful picture and we just want to hold on those moments with my cameras and make it a piece of art with  adroit editing</p>
+                  </Carousel.Caption>
+              </Carousel.Item>
+              <Carousel.Item>
+                  <img
+                      className="d-block w-100 slider-image"
+                      src={slider2}
+                      alt="Second slide"
+                  />
+  
+                  <Carousel.Caption>
+                      <h3>A picture is worth a thousands words</h3>
+                      <p>Clearly and beautifully captures your emotions- the joy, the laughter, the tears</p>
                   </Carousel.Caption>
               </Carousel.Item>
               <Carousel.Item>
                   <img
                       className="d-block w-100 slider-image"
                       src={slider3}
-                      alt="Second slide"
-                  />
-  
-                  <Carousel.Caption>
-                      <h3>Second slide label</h3>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                  </Carousel.Caption>
-              </Carousel.Item>
-              <Carousel.Item>
-                  <img
-                      className="d-block w-100 slider-image"
-                      src={slider1}
                       alt="Third slide"
                   />
   
                   <Carousel.Caption>
-                      <h3>Third slide label</h3>
+                      <h3>Ready to take you beyond your imagination!</h3>
                       <p>
-                          Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+                          Take photos so perfectly that you will feel the same that you had felt in that very special day. 
                       </p>
                   </Carousel.Caption>
               </Carousel.Item>

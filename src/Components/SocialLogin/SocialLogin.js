@@ -16,7 +16,7 @@ const SocialLogin = () => {
 
     let errorElement;
     if (googleError) {
-        errorElement = <p className='text-danger'>Error: {googleError?.message} </p>
+        errorElement = <p className='error-message'>Error: {googleError?.message} </p>
     }
 
     if(googleLoading){
@@ -35,18 +35,18 @@ const SocialLogin = () => {
                  <div className='or-border'></div>
             </div>
 
-            <p>{errorElement}</p>
+           {errorElement &&  <p>{errorElement}</p>}
 
-            <div className='mt-0'>
+            <div className='social-btn-section'>
                 <button onClick={() => signInWithGoogle()}
                     className='social-btn w-50'>
-                    <img style={{ width: '35px' }} src={google} alt="" />
+                    <img className='logo' src={google} alt="" />
                     <span className='px-1'>Google Sign In</span>
                 </button>
 
                 <button onClick={() => signInWithGithub()}
-                    className='social-btn w-50 my-3'>
-                    <img style={{ width: '30px' }} src={github} alt="" />
+                    className='social-btn w-50'>
+                    <img className='logo' src={github} alt="" />
                     <span className='px-1'>Github Sign In</span>
                 </button>
             </div>

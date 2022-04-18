@@ -19,10 +19,40 @@
 
 }
 
-.navbar a {
+.link {
     text-decoration: none;
     font-family: 'Lato';
     color: white;
     margin-right: 40px;
     font-size: 18px;
 }
+
+.active-link{
+    color: blue;
+    font-size: 21px;
+    margin-right: 40px;
+    padding: 0 5px;
+    
+}
+
+@media only screen and (max-width: 600px) {
+    .navbar{
+        display: flex;
+        align-items: center;
+        padding: 10px 5px;
+        margin-left: 10px;
+      
+       
+    }
+    .link{
+        margin-right: 10px;
+        font-size: 13px;
+    }
+    .active-link{
+        margin-right: 10px;
+        font-size: 13px;
+    }
+    .title{
+        font-size: 20px;
+    }
+  }

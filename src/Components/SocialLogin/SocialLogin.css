@@ -20,9 +20,40 @@
     display: block;
     margin: 0 auto;
     padding: 5px 10px;
+    margin-bottom: 15px;
     
 }
 .social-btn:hover{
     background-color: rgba(255, 99, 71, 0.864);
     color: wheat;
 }
+.logo{
+    width: 35px;
+}
+
+@media only screen and (max-width: 600px) {
+    .or-section{
+        font-size: 14px;
+    }
+    .social-btn-section{
+        margin: 0;
+    }
+
+    .social-btn{
+        font-size: 10px;
+        border: none;
+        border-radius: 5px;
+        color: blue;
+        display: block;
+        margin: 0 auto;
+        padding: 5px 5px;
+        margin-bottom: 10px;
+       
+        
+    }
+
+    .logo{
+        width: 20px;
+    }
+
+  }
