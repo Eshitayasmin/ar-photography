@@ -10,13 +10,9 @@ const CheckOut = () => {
     const navigate = useNavigate();
     
 
-    
-    const navigateWelcomePage = () => {
-        toast('Thanks for your booking')
-        
-    }
     const handleSubmit = (event) => {
         event.preventDefault();
+        navigate('/welcome');
         
     }
     return (
@@ -29,7 +25,7 @@ const CheckOut = () => {
                 <input class="input" type="text" name='address' placeholder='Address' required />
                 <input class="input" type="number" name="phone" id="" placeholder='Your Phone Number' required />
                 <input class="input" type="date" name="Date" id="" placeholder='date' required />
-                <Button type='submit' id="button" className="submit-btn" onClick={navigateWelcomePage} >Submit</Button>
+                <button type='submit' className="submit-btn" >Submit</button>
             </form>
             <ToastContainer></ToastContainer>
         </div>
