@@ -19,8 +19,9 @@ const Gallery = () => {
                 <img  className='gallery-image' src="https://thumbor.forbes.com/thumbor/711x453/https://specials-images.forbesimg.com/imageserve/5ef9efe9236e830006d405ff/Bangladeshi-boy-with-flowers-under-the-rain-/960x0.jpg?fit=scale" alt="" srcset="" />
             </div>
             <div className='image-div'>
-                <img className='gallery-image' src="http://llandscapes-10674.kxcdn.com/wp-content/uploads/2016/05/stony-man-mountain-2.jpg" alt="" srcset="" />
+                <img  className='gallery-image' src="https://www.photopoly.net/wp-content/uploads/2013/03/rain-photography.jpg" alt="" srcset="" />
             </div>
+            
             <div className='image-div'>
                 <img className='gallery-image' src="https://i.pinimg.com/736x/16/1c/97/161c9722baf615959ad5df1ecbe40598.jpg" alt="" srcset="" />
             </div>

@@ -11,7 +11,7 @@ const Service = ({service}) => {
         <div>
             <div className='service'>
                 <img className='w-100 service-image mx-auto rounded' src={img} alt="" />
-                <h3 className='text-center text-primary fs-3'>{name}</h3>
+                <h3 className='text-center text-primary fs-3 mt-3'>{name}</h3>
                 <h5 className='text-center fs-4'>{price}</h5>
                 <hr />
                 <h6>Facilities:</h6>
