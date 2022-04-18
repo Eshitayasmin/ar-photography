@@ -5,7 +5,7 @@
 
 <hr>
 
-## What can be done in the Project :
+### What can be done in the Project :
 - Can be sign up.
 - Can be signout.
 - Once signed up you can login later.
@@ -13,7 +13,7 @@
 - If you forget the password, you can reset the password.
 - If you are not logged in, you will not be able to enter the private route.
 
-## Technologies
+### Technologies:
 - Firebase
 - React-firebase-hooks
 - React-router-dom

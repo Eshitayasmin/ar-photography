@@ -1,0 +1,30 @@
+.about-section{
+    display: flex;
+    justify-content: space-around;
+    margin: 100px 200px;
+    height: 100vh;
+    
+}
+.about-me{
+  margin-right: 100px;
+  margin-top: 70px;
+}
+.about-image{
+    width: 280px;
+}
+
+@media only screen and (max-width: 600px) {
+    .about-section{
+        display: block;
+        margin: 20px 10px;
+    }
+    .about-me{
+        margin-right:0px;
+        padding: 10px;
+    
+    }
+    .about-image{
+        width: 250px;
+        margin-left: 10px;
+    }
+  }
