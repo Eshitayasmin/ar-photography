@@ -45,4 +45,13 @@
         grid-gap: 20px;
         margin: 10px 30px;
     }
+    .service{
+        padding: 5px;
+        margin: 0;
+    }
+    .book-now-btn{
+        border-radius: 5px;
+        font-size: 15px;
+        padding: 5px 10px;
+    }
 }
