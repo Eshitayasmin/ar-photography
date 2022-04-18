@@ -1,0 +1,15 @@
+
+.answer{
+    margin: 50px 100px;
+    border: 1px solid slategray;
+    padding: 10px;
+}
+.answer-one{
+    display: flex;
+    justify-content: space-evenly;
+}
+.option{
+    font-weight: 500;
+    font-size: 17px;
+    color: sienna;
+}

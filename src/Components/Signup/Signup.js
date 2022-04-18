@@ -61,10 +61,10 @@ const Signup = () => {
         <div className='form-container'>
             <h1 className='form-title'>Signup</h1>
             <form onSubmit={handleSignup}>
-                <input onBlur={handleEmailBlur} type="email" name="email" id="email-field" placeholder='Your Email' />
-                <input onBlur={handlePasswordBlur} type="password" name="password" id="" placeholder='Password' />
+                <input onBlur={handleEmailBlur} type="email" name="email" id="email-field" placeholder='Your Email' required/>
+                <input onBlur={handlePasswordBlur} type="password" name="password" id="" placeholder='Password' required/>
 
-                <input onBlur={handleConfirmPasswordBlur} type="password" name="confirm-password" id="" placeholder='Confirm Password' />
+                <input onBlur={handleConfirmPasswordBlur} type="password" name="confirm-password" id="" placeholder='Confirm Password' required/>
                 {errors && <p className='error-message'>{errors}</p>}
 
                 <button className='submit-btn'>Signup</button>

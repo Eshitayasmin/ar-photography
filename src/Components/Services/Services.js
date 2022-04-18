@@ -1,17 +1,21 @@
 import React from 'react';
-import { Link, useNavigate } from 'react-router-dom';
+import useServices from '../../hooks/useServices';
+import Service from '../Service/Service';
 import './Services.css';
 
 const Services = () => {
-    const navigate = useNavigate();
-    const navigateCheckOut = () =>{
-        navigate('/checkout')
-    }
+    const [services] = useServices();
+   
     return (
         <div id="services" className='mt-5'>
-            <h1 className='services-title text-primary text-center mb-2'>Available Services</h1>
+            <h1 className='services-title text-primary text-center mb-2'>Available Services: {services.length}</h1>
            <div className='services'>
-            <div className='service'>
+               {
+                   services.map(service => <Service 
+                    key={service.id}
+                    service={service}></Service>)
+               }
+             {/* <div className='service'>
                 <img className='w-100 service-image mx-auto rounded' src="https://ventsmagazine.com/wp-content/uploads/2019/12/gvQ9NhQP8wbbM32jXy4V3j.jpg" alt="" />
                 <h3 className='text-center text-primary fs-3'>Photography</h3>
                 <h5 className='text-center fs-4'>TK.20,000/=</h5>
@@ -62,8 +66,8 @@ const Services = () => {
                 </ul>
 
                 <button onClick={navigateCheckOut} className='w-100 book-now-btn'>Book Now</button>  
-            </div>
-        </div>
+            </div> */}
+         </div> 
         </div>
                
        

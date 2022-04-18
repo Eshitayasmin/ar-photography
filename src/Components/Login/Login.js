@@ -13,7 +13,7 @@ const Login = () => {
     const navigate = useNavigate();
     const location = useLocation();
 
-    const from = location.state?.from?.pathname || '/';
+    const from = location.state?.from?.pathname || '/about';
 
     const [
         signInWithEmailAndPassword,
@@ -73,9 +73,9 @@ const Login = () => {
         <div className='form-container'>
             <h1 className='form-title'>Login</h1>
             <form onSubmit={handleLogin} >
-                <input onBlur={handleEmailBlur} type="email" name="email" id="" placeholder='Your Email' />
+                <input onBlur={handleEmailBlur} type="email" name="email" id="" placeholder='Your Email' required/>
 
-                <input onBlur={handlePasswordBlur} type="password" name="password" id="" placeholder='Password' />
+                <input onBlur={handlePasswordBlur} type="password" name="password" id="" placeholder='Password' required/>
                  <p>{errorMessage}</p>
                 <button className='submit-btn'>Login</button>
 

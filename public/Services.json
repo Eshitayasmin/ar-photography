@@ -2,23 +2,44 @@
     {
         "id": 1,
         "name": "Photography",
-        "price": "30,000",
-        "description": "Event duration 5hours. Unlimited pictures.(all post processed.)",
-        "img": "https://i.ibb.co/dGDkr4v/1.jpg"
+        "price": "TK.20,000/=",
+        "facilities": {
+            "face1": "Event duration 5 hours",
+            "face2": "Unlimited Pictures",
+            "face3": "Specially 150 copies edited photos",
+            "face4": "Print: 20L (20x30) Matte Print: 1 copy",
+            "face5": "Print: 5L (5x7.5) Matte Prints: 125 copies",
+            "face6": "All soft copy of photos will be delivered in AR Photography's Signature Pen drive"
+        },
+        "img": "https://ventsmagazine.com/wp-content/uploads/2019/12/gvQ9NhQP8wbbM32jXy4V3j.jpg"
     },
     {
         "id": 2,
         "name": "Cinematography",
-        "price": "100",
-        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
-        "img": "https://i.ibb.co/tY8dmnP/2.jpg"
+        "price": "TK.35,000/=",
+        "facilities": {
+            "face1": "Event duration 7 hours",
+            "face2": "3 Camera Units",
+            "face3": "Lighting setup",
+            "face4": "Video Quality: 1080P (1920×1080)",
+            "face5": "Conceptual Cinematography",
+            "face6": "2-3 minutes Promo with the best moments of the event",
+            "face7": "30 minutes + edited video from entire event"
+        },
+        "img": "https://www.indiewire.com/wp-content/uploads/2018/02/tri-12139r.jpg?w=780"
     },
     {
         "id": 3,
-        "name": "ADD-ONS",
-        "price": "150",
-        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
-        "img": "https://i.ibb.co/Yh04YVw/3.jpg"
+        "name": "Corporate Photography",
+        "price": "Per hour Tk.5,000/=",
+        "facilities": {
+            "face1": "Discreet and unobstructive professional photography",
+            "face2": "All images professionally captured",
+            "face3": "Use only professional cameras",
+            "face4": "Edited images provided within 24 hours",
+            "face5": "Images uploaded to our unique online downloadable gallery",
+            "face6": "Copyright of the images"
+        },
+        "img": "https://images.squarespace-cdn.com/content/v1/5fde0871cb96363ef0b6b786/1609688583073-3H8CWOX13GZLD1YXH86R/shoot-me-now-corporate-photography-1.jpg"
     }
-    
 ]
