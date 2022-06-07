@@ -7,7 +7,7 @@
 
 ### What can be done in the Project :
 - Can be sign up.
-- Can be signout.
+- Can be signOut.
 - Once signed up you can login later.
 - Sent email verification.
 - If you forget the password, you can reset the password.
